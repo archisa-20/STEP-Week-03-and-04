@@ -18,7 +18,7 @@ class Client {
 }
 
 public class ClientRiskSorter {
-=
+
     public static void bubbleSortAscending(Client[] arr) {
         int n = arr.length;
         int swaps = 0;
@@ -46,7 +46,7 @@ public class ClientRiskSorter {
 
         System.out.println("Total Swaps: " + swaps);
     }
-=
+
     public static void insertionSortDescending(Client[] arr) {
         int n = arr.length;
 
